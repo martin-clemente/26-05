@@ -1,0 +1,190 @@
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonora — Música sin límites</title>
+  <meta name="description" content="Sonora: descubre, escucha y comparte música. Plataforma de streaming moderna y minimalista." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <span>Sonora</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#" class="nav-item active">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg>
+          Inicio
+        </a>
+        <a href="#" class="nav-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          Buscar
+        </a>
+        <a href="#" class="nav-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+          Tu biblioteca
+        </a>
+      </nav>
+
+      <div class="divider"></div>
+
+      <div class="playlists">
+        <p class="section-label">Listas</p>
+        <a href="#">Descubrimiento semanal</a>
+        <a href="#">Lo-fi para concentrarse</a>
+        <a href="#">Indie esenciales</a>
+        <a href="#">Clásicos del jazz</a>
+        <a href="#">Workout 2026</a>
+        <a href="#">Sueños eléctricos</a>
+        <a href="#">Domingo lento</a>
+      </div>
+
+      <div class="upgrade">
+        <p class="upgrade-title">Plan Premium</p>
+        <p class="upgrade-text">Sin anuncios. Descargas. Audio sin pérdidas.</p>
+        <button class="btn btn-outline">Probar gratis</button>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <header class="topbar">
+        <div class="nav-arrows">
+          <button aria-label="Atrás"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button aria-label="Adelante"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+        <div class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="text" placeholder="¿Qué quieres escuchar?" />
+        </div>
+        <div class="user">
+          <button class="btn btn-ghost">Iniciar sesión</button>
+          <button class="btn btn-primary">Registrarse</button>
+          <div class="avatar">JM</div>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-content">
+          <span class="hero-tag">Playlist destacada</span>
+          <h1>Noches eléctricas</h1>
+          <p>Una selección curada de electrónica nocturna, beats hipnóticos y atmósferas profundas para perderte.</p>
+          <div class="hero-meta">
+            <span>Sonora</span><span>·</span><span>48 canciones</span><span>·</span><span>3 h 12 min</span>
+          </div>
+          <div class="hero-actions">
+            <button class="btn btn-play">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              Reproducir
+            </button>
+            <button class="btn btn-icon" aria-label="Me gusta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </button>
+            <button class="btn btn-icon" aria-label="Más">
+              <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="block-head">
+          <h2>Hecho para ti</h2>
+          <a href="#">Ver todo</a>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="cover cover-1"><button class="play-fab" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+            <h3>Mix diario 1</h3>
+            <p>Tame Impala, MGMT, Mac DeMarco y más</p>
+          </article>
+          <article class="card">
+            <div class="cover cover-2"><button class="play-fab" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+            <h3>Descubrimiento semanal</h3>
+            <p>Tu cápsula semanal de nueva música</p>
+          </article>
+          <article class="card">
+            <div class="cover cover-3"><button class="play-fab" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+            <h3>Radar de novedades</h3>
+            <p>Los lanzamientos de la semana</p>
+          </article>
+          <article class="card">
+            <div class="cover cover-4"><button class="play-fab" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+            <h3>Lo-fi para estudiar</h3>
+            <p>Beats suaves para concentrarte</p>
+          </article>
+          <article class="card">
+            <div class="cover cover-5"><button class="play-fab" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+            <h3>Indie esenciales</h3>
+            <p>Lo mejor del indie contemporáneo</p>
+          </article>
+          <article class="card">
+            <div class="cover cover-6"><button class="play-fab" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+            <h3>Clásicos del jazz</h3>
+            <p>Miles, Coltrane, Evans y leyendas</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="block-head">
+          <h2>Géneros populares</h2>
+          <a href="#">Ver todo</a>
+        </div>
+        <div class="grid">
+          <article class="card"><div class="cover cover-7"></div><h3>Electrónica</h3><p>Pulso nocturno</p></article>
+          <article class="card"><div class="cover cover-8"></div><h3>Hip hop</h3><p>Líricas y groove</p></article>
+          <article class="card"><div class="cover cover-9"></div><h3>Pop</h3><p>Éxitos del momento</p></article>
+          <article class="card"><div class="cover cover-10"></div><h3>Clásica</h3><p>Reflexión profunda</p></article>
+          <article class="card"><div class="cover cover-11"></div><h3>Soul</h3><p>Calidez y sentimiento</p></article>
+          <article class="card"><div class="cover cover-12"></div><h3>Ambient</h3><p>Texturas etéreas</p></article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Player -->
+  <footer class="player">
+    <div class="now-playing">
+      <div class="np-cover"></div>
+      <div>
+        <p class="np-title">Solar Drift</p>
+        <p class="np-artist">Nova Lumière</p>
+      </div>
+      <button class="icon-btn" aria-label="Me gusta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+      </button>
+    </div>
+
+    <div class="controls">
+      <div class="controls-buttons">
+        <button class="icon-btn" aria-label="Aleatorio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20l17-17M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg></button>
+        <button class="icon-btn" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zM9.5 12l8.5 6V6z"/></svg></button>
+        <button class="play-btn" aria-label="Reproducir"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+        <button class="icon-btn" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg></button>
+        <button class="icon-btn" aria-label="Repetir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 1l4 4-4 4M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4M21 13v2a4 4 0 01-4 4H3"/></svg></button>
+      </div>
+      <div class="progress">
+        <span>1:24</span>
+        <div class="bar"><div class="bar-fill"></div></div>
+        <span>3:47</span>
+      </div>
+    </div>
+
+    <div class="extras">
+      <button class="icon-btn" aria-label="Cola"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h12M4 12h12M4 18h8M18 14v6M21 17l-3-3-3 3"/></svg></button>
+      <button class="icon-btn" aria-label="Dispositivos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 22h8"/></svg></button>
+      <button class="icon-btn" aria-label="Volumen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5zM15.5 8.5a5 5 0 010 7"/></svg></button>
+      <div class="volume"><div class="volume-fill"></div></div>
+    </div>
+  </footer>
+</body>
+</html>
